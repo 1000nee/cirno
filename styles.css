@@ -104,3 +104,20 @@ height:auto;
     width: 100%;
     height: 60px;
 }
+
+/* Flash Corner Button */
+#flash-button {
+    position: fixed;  /* stays in corner */
+    bottom: 10px;     /* adjust: use top:20px for top corner */
+    left: 10px;      /* adjust: left:20px for left corner */
+    width: 150px;     /* button size */
+    z-index: 50;
+    cursor: pointer;  /* shows hand cursor */
+    display: block;
+}
+
+#flash-button img {
+    width: 60%;
+    height: auto;
+    transition: transform 0.2s;
+}
